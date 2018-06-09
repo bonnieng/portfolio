@@ -9690,7 +9690,14 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	define( "jquery", [], function () { return jQuery; } );
 }
 
-})( window );                                          
+})( window );  
+	
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ // some code..
+}else
+{
+//Now include js files
+	
   $("#first").hover(function () {
 
     $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/a2652b21778cce801c756d641485a93ab14e01b6d5c77a0ccae797b2c04bc10e/holy.jpg")')
@@ -9712,4 +9719,6 @@ $("#third").hover(function () {
     
 
 });
+	
+}
 </script>
