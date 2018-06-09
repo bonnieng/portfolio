@@ -3,30 +3,87 @@
 <head>
 <meta charset="utf-8">
 </head>
-<body>
-<nav>
- <a id="first">Link 1</a>
- <a id="second">Link 1</a>
- <a id="third">Link 1</a>
-</nav>
-</body>
+<body onload="document.body.classList.add('loaded')">
 <style>
+
+
 body {
-    background-image:url("http://www.thatsreallypossible.com/wp-content/uploads/2012/12/Space-Colonialisation.jpg");
+    background-image:url("http://www.thatsreallypossible.com/wp-content/uploads/2012/12/Space-Colonialisation.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
     background-size:cover;
+    width: 100%;
+  height: 100vh;
+  transition: background-image 1s;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+ 
+ 
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  border: #fff 100px solid;
+  padding: 0;
+  margin: 0;
+ 
+  
+  
+  }
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
+
+
+
 nav {
     position:fixed;
-    background:black;
-    color:white;
-    opacity:0.9;
-    padding:20px;
+    color:gray;
+    margin-left:-100px;
     font-family:arial;
+   font-size: 1.2em;
+   line-height: 1.6;
+   padding-bottom:40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+     text-transform: uppercase;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 320;
 }
+
 nav a {
-    display:block
+    
 }
 </style>
+
+<a href="https://bonita.persona.co/">
+ <img src="https://cortex.persona.co/t/original/i/c95a30e44d697e9aa6a3763e3241e42669b8f19173442da37b9727c96f0165a3/bnlogo1-01.png" alt="logo" style="padding-left:25px;padding-top: 20px;left:0;top:0;
+  position:fixed;width:115px;">
+  </a>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:320" rel="stylesheet">
+<nav>
+ <a id="first">Link 1</a>
+ &nbsp  &nbsp
+ <a id="second">Link 1</a>
+ &nbsp  &nbsp
+ <a id="third">Link 1</a>
+</nav>
+
+@media screen and (max-width:680px) {
+}
+
+</body>
+
 <script language=" javascript" type="text/javascript">
  /*!
  * jQuery JavaScript Library v1.9.1
@@ -9627,19 +9684,23 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 })( window );                                          
   $("#first").hover(function () {
 
-    $("body").css("background-image", 'url("http://static.bbc.co.uk/solarsystem/img/ic/640/collections/space_exploration/space_exploration_large.jpg")');
+    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/a2652b21778cce801c756d641485a93ab14e01b6d5c77a0ccae797b2c04bc10e/holy.jpg")')
+    $("body").css("border","100px #D3D3D3 solid");
 
 });
 
 $("#second").hover(function () {
 
-    $("body").css("background-image", 'url("http://i.telegraph.co.uk/multimedia/archive/02179/Milky-Way_2179177b.jpg")');
+    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/ac3fb2d6f2e3ae665daa5e623ea38c1e49e52a076840dce790f83969bbd1be03/girllogo.png")')
+    $("body").css("border","100px pink solid");
 
 });
 
 $("#third").hover(function () {
 
-    $("body").css("background-image", 'url("http://www.thatsreallypossible.com/wp-content/uploads/2012/12/Space-Colonialisation.jpg")');
+    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/0d06d4f9ec592d71c4bab405457d60e4cce920931e0b7c3a15c43f9182947e19/andorra_2.jpg")')
+    $("body").css("border","100px #83B5C7 solid");
+    
 
 });
 </script>
