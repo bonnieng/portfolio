@@ -1,130 +1,498 @@
 <!DOCTYPE html>
-<meta name="HandheldFriendly" content="true" />
-<meta name="MobileOptimized" content="320" />
-<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
-<html lang="en">
+<!--[if IE 9]> <html class="ie9" lang="en-us"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en-us">
+<!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- Basic page needs ================================================== -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>MINIMALIST</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Page info ========================================================= -->
+	<meta name="author" content="Purple Subird">
+	<meta name="description" content="MINIMALIST - Portfolio">
+	<meta name="keywords" content="minimalist, portfolio, design">
+
+	<!-- Fonts ============================================================= -->
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Stylesheets ======================================================= -->
+	<link rel="stylesheet" href="css/external/bootstrap.min.css">
+	<link rel="stylesheet" href="css/external/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Scripts =========================================================== -->
+	<!-- Google Analytics -->
+	<!-- Hotjar -->
+
+	<!-- Favicon =========================================================== -->
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"   href="favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="favicons/apple-touch-icon-57x57.png">
 </head>
-<body onload="document.body.classList.add('loaded')">
-<style>
+<body>
+	<div class="content-wrapper content-insert">
+		<header class="header">
+			<div class="logo">
+				<a class="logo__text" href="index.html" title="Minimalist - home page">Minimalist</a>
+				<!-- Uncomment if you want to use image as site logo -->
+				<!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
+			</div>
+			<nav class="navigation">
+				<button class="nav__toggle" type="button" title="Toggle menu navigation">
+					<span class="icon hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+				</button>
+				<ul class="nav-list">
+					<li class="nav-list__item">
+						<a href="#about" class="nav-list__link">About</a>
+					</li>
+					<li class="nav-list__item">
+						<a href="#services" class="nav-list__link">Services</a>
+					</li>
+					<li class="nav-list__item">
+						<a href="#works" class="nav-list__link">Works</a>
+					</li>
+					<li class="nav-list__item">
+						<a href="#contact" class="nav-list__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
+		<main class="content">
+			<!-- HERO IMAGE -->
+			<section class="section">
+				<div class="hero hero-image">
+					<div class="hero-content">
+						<span class="hero-subtitle">make an</span>
+						<h1 class="hero-title">Unforgettable<br> impression</h1>
+					</div>
+					<div class="image-holder demo-left">
+						<div class="module"><img class="hideme" src="img/hero-image.jpg" alt="Unforgettable impression">
+					</div> </div>
+				</div> <!-- end .hero -->
+			</section>
+			<!-- end HERO IMAGE -->
 
-body {
-    background-image:url("http://www.thatsreallypossible.com/wp-content/uploads/2012/12/Space-Colonialisation.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    background-size:cover;
-    width: 100%;
-  height: 100vh;
-  transition: background-image 1s;
-  opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2s;
- 
- 
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-  border: #fff 100px solid;
-  padding: 0;
-  margin: 0;
- 
+			<!-- PROJ 3 -->
+			<section id="about" class="section section-about">
+				<div class="container">
+					<div class="row">
+						<div class="about">
+							<div class="col-md-5 col-sm-12">
+							<div class="module">
+								<h3 class="caption">
+									About
+								</h3>
+								<h2 class="headline">
+									I believe in aesthetic and simplicity
+								</h2>
+								<p>
+									I create brands, products and packaging, perfectly attuned to a strategy and precisely to the brief. I demonstrate attention to the smallest detail.
+								</p>
+							</div> </div><!-- end .col-md-6 -->
+							<div class="col-md-6 col-md-offset-1 col-sm-12">
+								<div class="about__image-container">
+									<div class="image-holder"><div class="module">
+										<a href="project03.html"><img class="hideme" src="img/about-01.jpg" alt="About Me">
+									</a></div></div>
+									<div class="image-holder"><div class="module">
+										<a href="project03.html"><img class="hideme" src="img/about-02.jpg" alt="About Me">
+									</a></div></div>
+								</div>
+							</div> <!-- end .col-md-6 -->
+						</div> <!-- end .about -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</section>
+			<!-- end ABOUT -->
+
+			<!-- PROJ 2 -->
+			<section id="services" class="section section-services bg-neutral">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="service bg-inverse">								
+								<div class="content service-content">
+								
+									<div class="module">
+									<h3 class="caption">
+										Services
+									</h3>
+									<h2 class="headline">
+										Polished, clean and<br> professional design 
+									</h2>
+									<p>
+										Equipping clients with the tools needed to authentically bring their brand to life. Crafting design solutions that transform brands and grow businesses. I specialize in comprehensive branding, print collateral, packaging and interactive design.
+									</p>
+								</div></div> <!-- end .content -->
+								<div class="image-holder">
+								<div class="module">
+									<a href="project02.html"><img class="hideme" src="img/services.jpg" alt="Services">
+								</a></div></div>
+							</div> <!-- end .service -->
+						</div> <!-- end .col-md-12 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</section>
+			<!-- end SERVICES -->
+
+			<!-- PROJECTS -->
+			<section id="works" class="section section-projects">
+			
+			<div class="come-in">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="projects">
+								<div class="project">
+									<div class="content project-content"><div class="module">
+										<h3 class="caption">
+											Project 01
+										</h3>
+										<h2 class="headline">
+											<a href="project_one.html" title="View the Project 01">
+												Beautiful branding
+											</a>
+										</h2>
+										<p>
+											Client was looking for a rebrand that would really show the quality and luxury their products have. So I created a multidimensional brand. 
+										</p></div>
+									</div> <!-- end .content -->
+									<div class="image-holder"><div class="module">
+										<a href="project01.html" title="View the Project 01">
+											<img class="hideme" src="img/projects/project-01.jpg" alt="Project 01">
+										</a>
+									</div></div>
+								</div> <!-- end .project -->
+							
+
+<!-- 
+								<div class="project project~~opposite">
+									<div class="content project-content">
+										<h3 class="caption">
+											Project 02
+										</h3>
+										<h2 class="headline">
+											<a href="project-02.html" title="View the Project 02">
+												Outstanding packaging
+											</a>
+										</h2>
+										<p>
+											Client was looking for a rebrand that would really show the quality and luxury their products have. So I created a multidimensional brand.
+										</p>
+									</div> <!~~ end .content ~~>
+									<div class="image-holder">
+										<a href="project-02.html" title="View the Project 02">
+											<img src="img/projects/project-02.jpg" alt="Project 01">
+										</a>
+									</div>
+								</div> <!~~ end .project ~~>
+							
+								<div class="project">
+									<div class="content project-content">
+										<h3 class="caption">
+											Project 03
+										</h3>
+										<h2 class="headline">
+											<a href="project-03.html" title="View the Project 03">
+												Simple identity
+											</a>
+										</h2>
+										<p>
+											Client was looking for a rebrand that would really show the quality and luxury their products have. So I created a multidimensional brand.
+										</p>
+									</div> <!~~ end .content ~~>
+									<div class="image-holder">
+										<a href="project-03.html" title="View the Project 03">
+											<img src="img/projects/project-03.jpg" alt="Project 01">
+										</a>
+									</div>
+								</div> 
+								<!~~ end .project ~~>
+							
+							</div> <!~~ end .projects ~~>
+
+							<div class="text-center">
+								<a class="btn btn-primary btn-hover-01" href="https://dribbble.com/Natalia_k">View more</a>
+							</div>
+
+						</div> <!~~ end .col-md-12 ~~>
+					</div> <!~~ end .row ~~>
+				</div> <!~~ end .container ~~>
+				
+				</div> <!~~ I added this ~~>
+			</section>
+			
+			<!~~ end PROJECTS ~~>
+ -->
+
+			<!-- TESTIMONIALS -->
+			<section class="section section-testimonials bg-neutral">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 text-center">
+							<h3 class="caption caption--center">
+								What clients say
+							</h3>
+							<div id="testimonials" class="testimonials owl-carousel owl-carousel--full">
+								<div class="testimonial">
+									<h2 class="headline">
+										Emily Washington
+									</h2>
+									<p>
+										We were looking for a logo with a touch of modernism. Minimalist grasped our needs and produced a stunning design. When feedback was needed, new versions of the logo or any modifications were made very quickly. We really appreciated flexibility and efficiency. It’s great to work with someone so open-minded and responsive.
+									</p>
+								</div> <!-- end .testimonial -->
+
+								<!-- 
+<div class="testimonial">
+									<h2 class="headline">
+										Emily Washington
+									</h2>
+									<p>
+										We were looking for a logo with a touch of modernism. Minimalist grasped our needs and produced a stunning design. When feedback was needed, new versions of the logo or any modifications were made very quickly. We really appreciated flexibility and efficiency. It’s great to work with someone so open-minded and responsive.
+									</p>
+								</div> <!~~ end .testimonial ~~>
+
+								<div class="testimonial">
+									<h2 class="headline">
+										Emily Washington
+									</h2>
+									<p>
+										We were looking for a logo with a touch of modernism. Minimalist grasped our needs and produced a stunning design. When feedback was needed, new versions of the logo or any modifications were made very quickly. We really appreciated flexibility and efficiency. It’s great to work with someone so open-minded and responsive.
+									</p>
+								</div> <!~~ end .testimonial ~~>
+ -->
+
+							</div> <!-- end .testimonials -->
+						</div> <!-- end .col-md-12 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</section>
+			<!-- end TESTIMONIALS -->
+
+	<!-- 
+		CONTACT			<section id="contact" class="section section-contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="contact text-center">
+								<h3 class="caption caption~~center">
+									Contact
+								</h3>
+								<h2 class="headline">
+									Get in touch
+								</h2>
+								<p>
+									For questions or quick inquiries about a design project please use the form<br> below if you’re interested in working with me. 
+								</p>
+							
+								<form id="contact-form" class="form" action="mail/mail.php" method="POST" role="form">
+									<div class="form-group">
+										<label class="form__label" for="name">Name*</label>
+										<input class="form__field" id="name" name="name" type="text">
+									</div>
+
+									<div class="form-group">
+										<label class="form__label" for="email">Email Address*</label>
+										<input class="form__field" id="email" name="email" type="email">
+									</div>
+
+									<div class="form-group">
+										<label class="form__label" for="subject">Subject*</label>
+										<input class="form__field" id="subject" name="subject" type="text">
+									</div>
+
+									<div class="form-group">
+										<label class="form__label" for="body">Message*</label>
+										<textarea class="form__field" id="body" name="message" type="text"  rows="5"></textarea>
+									</div>
+
+									<div class="form-group form-group~~btn text-center">
+										<button class="btn btn-primary btn-fill btn-hover-01"><span>Submit</span></button>
+									</div>
+								</form>
+							</div> end .contact						</div> end .col-md-12					</div> end .row				</div> end .container			</section>
+			end CONTACT		</main>
+ -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<ul class="social-list">
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://www.instagram.com/natalia_kosarieva/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							</li>
+
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://www.behance.net/natalia_k" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+							</li>
+
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							</li>
+
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://www.facebook.com/natalia.kosarieva" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</li>
+
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://twitter.com/papernatali" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</li>
+
+							<li class="social-list__item">
+								<a class="social-list__link" href="https://dribbble.com/Natalia_k" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+					</div> <!-- end .col-md-6 -->
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="logo footer-logo">
+							<a class="logo__text" href="/" title="Minimalist - home page">Minimalist</a>
+							<!-- Reccoment if you want to use image as site logo -->
+							<!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
+							<p class="copyright">
+								&copy; 2016 All rights reserved.
+							</p>
+						</div>
+					</div> <!-- end .col-md-6 -->
+					
+				</div> <!-- end .row -->
+			</div> <!-- end .container -->
+		</footer>
+	</div>
+
+<!-- 
+	OVERLAY	<div class="overlay is-hidden">
+		<div class="loader"></div>
+		<div class="long-loading-container is-hidden">
+			<p>The page is loading more then 5 sec.<br>You can wait, return back or directly load a page </p>
+			<a class="btn btn-primary js-overlay-hide" href="" data-disabled="true">Back</a>
+			<a class="btn btn-primary js-direct" href="" data-disabled="true">Direct</a>
+		</div>
+	</div>
+	end OVERLAY
+ -->
+
+	<!-- Scripts =========================================================== -->
+	<script src="js/external/jquery-3.1.1.min.js">
+	</script>
+	<script src="js/external/owl.carousel.min.js"></script>
+	<script src="js/external/contact-form.js"></script>
+    <script type="text/javascript">
+        new ContactForm('#contact-form', {});
+    </script>
+	<script src="js/main.js"></script>
+	
+	<!-- I added this -->
+<script>	
+(function($) {
+
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+})(jQuery);
+
+var win = $(window);
+
+var allMods = $(".module");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
   
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
   
-  }
+});
 
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
+$(window).scroll(function(event) {
+  
+  $(".module").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
+  
+});
+</script>
+<!-- for fading -->
+<script>
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var top_of_object = $(this).position().top + $(this).outerHeight();
+            var top_of_window = $(window).scrollTop() + $(window).height()*1.75;
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( top_of_window > top_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
 
 
-
-nav {
-    position:fixed;
-    color:gray;
-    margin-left:-100px;
-   
-   padding-bottom:40px;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-     text-transform: uppercase;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 320;
-	font-size: 10 vw; 
-}
-
-nav a {
-      
-}
-	
-@media only screen and (max-width: 500px) {
-      nav {
-       
-        font-size: 100 vw;
-      }
-    }    
-	
-</style>
-	
-
-<a href="https://bonita.persona.co/">
- <img src="https://cortex.persona.co/t/original/i/c95a30e44d697e9aa6a3763e3241e42669b8f19173442da37b9727c96f0165a3/bnlogo1-01.png" alt="logo" style="padding-left:25px;padding-top: 20px;left:0;top:0;
-  position:fixed;width:115px;">
-  </a>
-	
-<link href="https://fonts.googleapis.com/css?family=Montserrat:320" rel="stylesheet">
-<nav>
- <a id="first" href="https://bonita.persona.co/Andorra">Link 1</a>
- &nbsp  &nbsp
- <a id="second">Link 1</a>
- &nbsp  &nbsp
- <a id="third">Link 1</a>
-</nav>
 
 </body>
-	
-<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-<script language=" javascript" type="text/javascript">
-	     
-
-
-
-
-	
-  $("#first").hover(function () {
-
-    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/a2652b21778cce801c756d641485a93ab14e01b6d5c77a0ccae797b2c04bc10e/holy.jpg")')
-    $("body").css("border","100px #D3D3D3 solid");
-
-});
-
-$("#second").hover(function () {
-
-    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/ac3fb2d6f2e3ae665daa5e623ea38c1e49e52a076840dce790f83969bbd1be03/girllogo.png")')
-    $("body").css("border","100px pink solid");
-
-});
-
-$("#third").hover(function () {
-
-    $("body").css("background-image", 'url("https://cortex.persona.co/t/original/i/0d06d4f9ec592d71c4bab405457d60e4cce920931e0b7c3a15c43f9182947e19/andorra_2.jpg")')
-    $("body").css("border","100px #83B5C7 solid");
-    
-
-});
-						
-
-</script>	
-
-
+</html>
