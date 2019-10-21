@@ -47,14 +47,21 @@
 				<!-- Uncomment if you want to use image as site logo -->
 				<!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
 			</div>
-			<nav class="navigation">
-				<button class="nav__toggle" type="button" title="Toggle menu navigation"  >
+			
+			<nav class="navigation   navbar navbar-default navbar-fixed-top    ">
+				<div class="container-fluid"> 
+				<div class="navbar-header">
+<!-- 				<button class="nav__toggle" type="button" title="Toggle menu navigation"  > -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">	
 					<span class="icon hamburger">
 						<span></span>
 						<span></span>
 						<span></span>
 					</span>
 				</button>
+				</div>
+				
+				<div class="navbar-collapse collapse" id="navbar">
 				<ul class="nav-list">
 					<li class="nav-list__item">
 						<a href="#about" class="nav-list__link">About</a>
@@ -391,7 +398,7 @@
  -->
 
 	<!-- Scripts =========================================================== -->
-<!-- 	<script src="js/external/jquery-3.1.1.min.js"></script> -->
+	<script src="js/external/jquery-3.1.1.min.js"></script>
 	<script src="js/external/owl.carousel.min.js"></script>
 	<script src="js/external/contact-form.js"></script>
     <script type="text/javascript">
