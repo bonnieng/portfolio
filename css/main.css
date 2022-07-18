@@ -270,7 +270,8 @@ h5 {
 /*--------------------- Navigation --------------------------*/
 .nav-list {
   margin-right: 24px;
-  list-style: none; }
+  list-style: none; 
+  font-family:Marcellus}
   .nav-list .nav-list__item {
     display: inline-block;
     font-family: Marcellus;
