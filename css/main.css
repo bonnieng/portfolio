@@ -273,7 +273,7 @@ h5 {
   list-style: none; }
   .nav-list .nav-list__item {
     display: inline-block;
-    font-weight: 700;
+    font-family: Marcellus;
     color: #000;
     text-transform: uppercase; }
   .nav-list .nav-list__link {
