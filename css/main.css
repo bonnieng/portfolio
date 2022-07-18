@@ -271,16 +271,16 @@ h5 {
 .nav-list {
   margin-right: 24px;
   list-style: none; 
-  font-family:Marcellus}
+  }
   .nav-list .nav-list__item {
     display: inline-block;
-    font-family: Marcellus;
     color: #000;
     text-transform: uppercase; }
   .nav-list .nav-list__link {
     margin: 0 -2px;
     padding: 30px 28px;
     display: block;
+    font-family: Marcellus;
     letter-spacing: 2px; }
 
 /*-----------------------------------------------------------*/
