@@ -307,9 +307,9 @@ h5 {
     height: 100%; }
   .hero .hero-title {
     margin-top: 15px;
-    font-family: Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: DM Serif Display, serif;
     font-size: 75px;
-    font-weight: 700;
+    font-style: italic;
     line-height: 95px;
     letter-spacing: 5.5px;
     text-transform: uppercase; }
