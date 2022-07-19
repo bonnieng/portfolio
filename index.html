@@ -495,12 +495,12 @@
 	<script src="js/main.js"></script>
 	
 	<!-- I added this -->
-<!--disappear arrow when scroll -->
+<!--disappear arrow when scroll (svg is the one indicating the arrows)-->
 <script>
   $(document).scroll(function(){
-    $("html").css("opacity","0");
+    $("svg").css("opacity","0");
     if($(document).scrollTop()>"50")
-      $("html").css("opacity","0");
+      $("svg").css("opacity","0");
 });
 
 </script>
