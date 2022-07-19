@@ -269,9 +269,9 @@ h5 {
 
 /*--------------------- Navigation --------------------------*/
 .nav-list {
+  font-family: Marcellus
   margin-right: 24px;
   list-style: none; 
-  font-family: Marcellus	
   }
   .nav-list .nav-list__item {
     display: inline-block;
