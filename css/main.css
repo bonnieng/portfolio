@@ -307,10 +307,10 @@ h5 {
     height: 100%; }
   .hero .hero-title {
     margin-top: 15px;
-    font-family: DM Serif Display, serif;
+    font-family: Playfair Display, serif;
     font-size: 75px;
     font-style: italic;
-    line-height: 95px;
+    line-height: 75px;
     letter-spacing: 5.5px;
      }
   .hero .hero-subtitle {
